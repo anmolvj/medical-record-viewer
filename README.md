@@ -2,6 +2,8 @@
 
 A React app for viewing and analyzing medical records with extracted data.
 
+![Screenshot](assets/screenshot.png)
+
 ## How to Run
 
 ```bash
