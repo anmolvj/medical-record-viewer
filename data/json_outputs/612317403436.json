@@ -1,0 +1,84 @@
+{
+  "record_info": {
+    "record_id": "612317403436.json",
+    "record_type": "anesthesia",
+    "source_file": "612317403436.pdf",
+    "data_format": "pdf"
+  },
+  "clinical_data": {
+    "procedures": [
+      {
+        "procedure": "Left knee arthroscopy, partial medial and lateral meniscectomy",
+        "cpt": [
+          {
+            "code": "29880",
+            "asa": "1400",
+            "base_units": 4,
+            "modifiers": []
+          }
+        ]
+      }
+    ],
+    "diagnoses": {
+      "primary": {
+        "diagnosis": "Tear of medial meniscus of left knee, unspecified tear type, unspecified whether old or current tear, initial encounter",
+        "icd10": "S83.242A"
+      },
+      "secondary": [],
+      "comorbidities": [
+        {
+          "diagnosis": "Type 2 diabetes mellitus",
+          "icd10": "E11.9"
+        },
+        {
+          "diagnosis": "Hypertension",
+          "icd10": "I10"
+        },
+        {
+          "diagnosis": "Sleep apnea with CPAP dependence",
+          "icd10": "G47.33"
+        },
+        {
+          "diagnosis": "Depression",
+          "icd10": "F32.A"
+        }
+      ]
+    },
+    "ancillary_services": [],
+    "metadata": {
+      "patient_age": null,
+      "patient_weight": null,
+      "asa_physical_status": "3",
+      "preop_diagnoses": [
+        "Tear of medial meniscus of left knee, unspecified tear type, unspecified whether old or current tear, initial encounter",
+        "Tear of lateral meniscus of left knee, unspecified tear type, unspecified whether old or current tear, initial encounter"
+      ],
+      "postop_diagnoses": [],
+      "anesthesia_type": null,
+      "anesthesia_start_time": null,
+      "anesthesia_end_time": null,
+      "surgeon": null,
+      "anesthesiologist": null,
+      "one_lung_ventilation_documented": false
+    }
+  },
+  "quality_control": {
+    "audit_necessary": false,
+    "ncci_edits": [],
+    "audit_notes": ""
+  },
+  "extraction_metadata": {
+    "reasoning": "",
+    "extraction_confidence": "",
+    "special_considerations": []
+  },
+  "processing_info": {
+    "status": "success",
+    "notes": "",
+    "processed_at": "2025-12-18T13:08:15Z",
+    "model_backend": "claude",
+    "model_version": "claude-sonnet-4-5-20250929",
+    "git_hash": "693232379b26d6f9658451374c3f51c8feb8f08d",
+    "category": "unknown"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "record_info": {
+    "record_id": "612311802824.json",
+    "record_type": "anesthesia",
+    "source_file": "612311802824.pdf",
+    "data_format": "pdf"
+  },
+  "clinical_data": {
+    "procedures": [
+      {
+        "procedure": "L4-L5 laminectomy aborted Coflex implantation",
+        "cpt": [
+          {
+            "code": "63005",
+            "asa": "630",
+            "base_units": 8,
+            "modifiers": []
+          }
+        ]
+      }
+    ],
+    "diagnoses": {
+      "primary": {
+        "diagnosis": "Lumbar radiculopathy",
+        "icd10": "M54.16"
+      },
+      "secondary": [],
+      "comorbidities": []
+    },
+    "ancillary_services": [],
+    "metadata": {
+      "patient_age": null,
+      "patient_weight": null,
+      "asa_physical_status": "2",
+      "preop_diagnoses": [
+        "Lumbar radiculopathy"
+      ],
+      "postop_diagnoses": [],
+      "anesthesia_type": null,
+      "anesthesia_start_time": null,
+      "anesthesia_end_time": null,
+      "surgeon": null,
+      "anesthesiologist": null,
+      "one_lung_ventilation_documented": false
+    }
+  },
+  "quality_control": {
+    "audit_necessary": false,
+    "ncci_edits": [],
+    "audit_notes": ""
+  },
+  "extraction_metadata": {
+    "reasoning": "",
+    "extraction_confidence": "",
+    "special_considerations": []
+  },
+  "processing_info": {
+    "status": "success",
+    "notes": "",
+    "processed_at": "2025-12-18T12:56:38Z",
+    "model_backend": "claude",
+    "model_version": "claude-sonnet-4-5-20250929",
+    "git_hash": "693232379b26d6f9658451374c3f51c8feb8f08d",
+    "category": "unknown"
+  }
+}
