@@ -5,6 +5,8 @@ A React app for viewing and analyzing medical records with extracted data.
 ## How to Run
 
 ```bash
+git clone https://github.com/anmolvj/medical-record-viewer.git
+cd medical-record-viewer
 npm install
 npm run dev
 ```
